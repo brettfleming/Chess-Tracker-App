@@ -12,6 +12,14 @@ const AppNavbar = () => {
                     <Navbar.Brand as={Link} to='/' id='t-nav-title'>
                         Chess Tracker
                     </Navbar.Brand>
+                    <Navbar.Toggle aria-controls='navbar' />
+                    <Navbar.Collapse id='navbar'>
+                        <Nav className='ml-auto' id='t-navbar-item'>
+                            <Nav.Link as={Link} to='/profile' id='t-nav-link-profile'>
+                                
+                            </Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </>
