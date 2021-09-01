@@ -17,8 +17,8 @@ const AppNavbar = () => {
                     <Navbar.Toggle aria-controls='navbar' />
                     <Navbar.Collapse id='navbar'>
                         <Nav className='ml-auto' id='t-navbar-item'>
-                            <Nav.Link as={Link} to='/profile' id='t-nav-link-profile'>
-                                Profile
+                            <Nav.Link as={Link} to='/topplayers' id='t-nav-link-profile'>
+                                Top Players
                             </Nav.Link>
                             {Auth.loggedIn() ? (
                                 <>
