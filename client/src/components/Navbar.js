@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, Tab } from 'react-bootstrap';
 import Auth from '../utils/auth';
+import SignUpForm from './SignupForm';
+import LoginForm from './LoginForm';
 
 
 const AppNavbar = () => {
